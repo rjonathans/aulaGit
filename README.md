@@ -1,2 +1,2 @@
 # aulaGit
-Aula Git withx Fronthendy v
+Aula Git with Fronthendy v

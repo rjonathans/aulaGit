@@ -67,5 +67,8 @@ $ git config --global user.email rjonath@live.com
 agora enviamos para nuvem
 na primeira vez precisamos escrever assim:
 $ git push -u origin master
+se der erro faz assim:
+$ git pull --rebase origin master
+
 
 

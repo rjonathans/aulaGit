@@ -9,7 +9,7 @@ Qual a diferença entre GITHUB e o GIT e GITBASH?
 
 GIT HUB --Pplatarforma online - repositórios WEB - A rede social dos desenvolvedores.
 GIT -- Software de versionamento. (gitforwindows)
-GIT BASH -- É apenas o Repositório onde nós colocamos os comandos.
+GIT BASH -- É apenas terminal do Repositório onde nós colocamos os comandos.
 
 existem varias formas de abrir o GITBASH.
 1) botão direito do mouse dentro da PASTA que vc criou o repositório LOCAL.
@@ -38,7 +38,7 @@ $ cd | nomeDapasta  -  entrar em uma pasta
 $ ls | (equivalente ao dir no CMD)ista todos os arquivos da pasta
 $ ls -la |  monstra mais informações sobre cada arquivo
 $ mkdir nomeDapasta |  criar uma nova pasta 
-$ touch primeiro_Arquivo.txt
+$ touch primeiro_Arquivo.txt    |   criar um novo arquivo
 $ rm nome_arquivo  |  excluir
 $ rm -rf nome_da_pasta  |  excluir sem perguntar
 $ mv nome_arquivo  |  mover arquivo
@@ -95,6 +95,29 @@ BRANCH MASTER
 $ git branch
 $ git checkout -b developer | cria uma nova Branch
 $ git chekour master (ou a branch que vc deseja ir)
+
+entra na branch, envia o convite para o time
+
+$ git clone
+$ git add.    |   adicina todos os arquivos na caixa
+$ git add nome_do_arquivo   |     Adiciona este arquivo na caixa
+$ git commit -m "o que eu desejo informar sobre este commit"   |    etiqueta a caixa
+$ git pull | pega o que tem dentro do web e compara com o seu, se houver conflito ele vai avisar assim:
+
+<<<<<<<HEAD
+//Codigo     ------------ seu commit
+
+=============================
+//codigo
+>>>>>>>>>>>>>>>>>>>>>>>> mf0i32jr90fj0934039030d039j0   --------------commit do github em conflito
+
+Resolva o conflito e faça a sequencia novamente
+
+$ git add .
+$ git commit
+$ git push
+
+em caso de emergência: ctrl+c: quit
 
 
 

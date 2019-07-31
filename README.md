@@ -69,6 +69,37 @@ na primeira vez precisamos escrever assim:
 $ git push -u origin master
 se der erro faz assim:
 $ git pull --rebase origin master
+$ git push -u origin master
+
+
+GIT FLOW
+
+o conjunto de pontos de alteração chama-se branch
+
+BRANCH .____________._____________.___________.__________
+
+                                                     Upgrade
+
+      commit- Cada um dos pontos de alteração na história
+      
+Sempre trabalhamos com mais de uma branch para que bugs não cheguem ao usuário
+Branch master - código ja testado e funcionando
+
+BRANCH MASTER .____________.____________.________________. merge = juntar as branchs
+               \                                        /
+                \.____________.____________.___________/  = BRANCH PARALELA
+                
+BRANCH DEVELOP
+BRANCH MASTER
+
+$ git branch
+$ git checkout -b developer | cria uma nova Branch
+$ git chekour master (ou a branch que vc deseja ir)
+
+
+
+
+
 
 
 

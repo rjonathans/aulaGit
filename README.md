@@ -46,7 +46,7 @@ $ clear  | limpa a tela (nao exclui)
 
 Vamos começar
 
-$ git init   | criar o arquivo que vai colocar no git
+$ git init   | criar o arquivo que vai colocar no git estou dizendo que vou colocar arquivos GIT aqui dentro
 $ git remote add origin  endereço_do_seu_repositório (https://github.com/rjonathans/aulaGit/)  |  adiciona o repositorio
 $ git remote  | se funcionou vai aparerer Origin
 $ git remote get-url origin  |  
